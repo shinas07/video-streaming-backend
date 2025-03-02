@@ -1,0 +1,7 @@
+venv/
+.env
+
+# Byte-compiled / Cache files
+__pycache__/
+*.pyc
+*.pyo

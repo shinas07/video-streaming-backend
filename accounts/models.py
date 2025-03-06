@@ -23,9 +23,6 @@ class CustomUserManager(BaseUserManager):
 class User(AbstractBaseUser):
     email = models.EmailField(unique=True)
     username = models.CharField(max_length=255, unique=True)
-    # first_name = models.CharField(max_length=255, blank=True)
-    # last_name = models.CharField(max_length=255, blank=True)
-    
     is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=False)
     date_joined = models.DateTimeField(default=timezone.now)

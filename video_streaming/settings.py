@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-g!sl#@kh2rp4+$hm2hx8iit+%57(=_2@6g497vo^+3!s)p#dkq
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['video-streaming-backend-production.up.railway.app']
 
 CORS_ALLOWED_ORIGINS = os.getenv("CORS_ALLOWED_ORIGINS", "").split(",")
 

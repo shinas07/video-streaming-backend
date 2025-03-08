@@ -37,22 +37,22 @@ CORS_ALLOWED_ORIGINS = [
 ]
 CORS_ALLOW_CREDENTIALS = True
 
-# CORS_ALLOW_METHODS = [
-#     'GET',
-#     'POST',
-#     'OPTIONS',
-# ]
+CORS_ALLOW_METHODS = [
+    'GET',
+    'POST',
+    'OPTIONS',
+]
 
-# CORS_ALLOW_HEADERS = [
-#     'accept',
-#     'accept-encoding',
-#     'authorization',
-#     'content-type',
-#     'origin',
-#     'user-agent',
-#     'x-csrftoken',
-#     'x-requested-with',
-# ]
+CORS_ALLOW_HEADERS = [
+    'accept',
+    'accept-encoding',
+    'authorization',
+    'content-type',
+    'origin',
+    'user-agent',
+    'x-csrftoken',
+    'x-requested-with',
+]
 
 # Application definition
 INSTALLED_APPS = [

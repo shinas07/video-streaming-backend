@@ -30,9 +30,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['video-streaming-backend-production.up.railway.app']
 
-CORS_ALLOWED_ORIGINS = os.getenv("CORS_ALLOWED_ORIGINS", "").split(",")
+# CORS_ALLOWED_ORIGINS = os.getenv("CORS_ALLOWED_ORIGINS", "").split(",")
 
-
+CORS_ALLOWED_ORIGINS = [
+    "https://video-streaming-frontend-gamma.vercel.app",
+]
 CORS_ALLOW_CREDENTIALS = True
 
 # CORS_ALLOW_METHODS = [
